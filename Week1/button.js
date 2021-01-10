@@ -4,14 +4,14 @@ function changeColor() {
     buttonColor.style.backgroundColor = "red";
 }
 
-function getIPAddress() {
-    var ipAddress = document.getElementById('ipAddress');
+function changeDog() {
+    var dogs = document.getElementById('dogs');
 
-    fetch('https://api.ipify.org?format=json')
+    fetch('https://random.dog/woof.json')
         .then(res => res.json())
         .then((data) => {
             console.log(data);
-            ipAddress.innerText = data;
+            dogs.innerHTML = '<img src="${data.url}"/>';
         }) 
 
         .catch((err) => {

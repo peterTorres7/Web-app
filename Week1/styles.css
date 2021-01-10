@@ -23,13 +23,6 @@
     align-items: center;
 }
 
-.left img {
-    height: 100%;
-    width: 100%;
-}
-
-
-
 .right {
     width: 50%;
     display: flex;
