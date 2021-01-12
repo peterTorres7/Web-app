@@ -30,6 +30,11 @@
     align-items: center;
 }
 
+img {
+    display: block;
+    max-width: 100%;
+}
+
 button {
     background-color: lightskyblue;
     height: 30px;

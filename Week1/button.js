@@ -1,7 +1,7 @@
 
 function changeColor() {
     var buttonColor = document.getElementById("colorChange");
-    buttonColor.style.backgroundColor = "red";
+    buttonColor.style.backgroundColor = "darkRed";
 }
 
 function changeDog() {
@@ -11,7 +11,11 @@ function changeDog() {
         .then(res => res.json())
         .then((data) => {
             console.log(data);
-            dogs.innerHTML = '<img src="${data.url}"/>';
+            if(data.url.includes(`.mp4`)) {
+                changeDog();
+            }else{
+            dogs.innerHTML = `<img src ="` + data.url + `"/>`;
+            }
         }) 
 
         .catch((err) => {
