@@ -1,6 +1,9 @@
+// imports http
 const http = require('http');
 
-http.get('http://graph.microsoft.com/v1.0/users', (response) => {
+// Gets user info
+http.get('http://jsonplaceholder.typicode.com/users', (response) => {
+   
     let data = '';
     response.on('data', (chunk) => {
         data += chunk;
@@ -14,7 +17,6 @@ http.get('http://graph.microsoft.com/v1.0/users', (response) => {
 .on('error', (error) => {
     console.log(error);
 })
-
 
 
 const requestListener = function (req, res) {
