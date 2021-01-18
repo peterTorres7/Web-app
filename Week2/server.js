@@ -1,4 +1,5 @@
-// imports http
+// imports 
+const https = require('https');
 const http = require('http');
 
 // Gets user info
@@ -18,7 +19,38 @@ http.get('http://jsonplaceholder.typicode.com/users', (response) => {
     console.log(error);
 })
 
+// Post request
+const info = JSON.stringify({
+    name:"Peter Torres",
+})
 
+const options = {
+    hostname:'reqres.in',
+    path: '/api/users',
+    method: 'POST',
+    header: {
+        'Content-Type':'application/json'
+    }
+}
+
+const req = https.request(options, (res) => {
+    let info = '';
+    console.log("Status Code:", res.statusCode)
+
+    res.on('data', (chunk)=> {
+        info += chunk;
+    })
+
+    res.on('end', ()=>{
+        console.log("Parsed:", JSON.parse(info));
+        console.log(`Info: ${JSON.stringify(info)}`);
+    })
+})
+
+req.write(info)
+req.end();
+
+//Create web server
 const requestListener = function (req, res) {
     
     req.on('data', chunk => {
