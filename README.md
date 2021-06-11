@@ -1,2 +1,2 @@
 # Web-app
-This will be for web app.
+These are assignments for web app.
