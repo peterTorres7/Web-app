@@ -34,3 +34,5 @@ cd Web-app
 ## Built with
 👷
 - HTML
+## Features
+🚀
