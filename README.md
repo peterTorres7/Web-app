@@ -1,5 +1,3 @@
-# JavaScript exercises
-These are assignments for web app class.
 ## Table of contents
 📂
 * [General info](#general-info)
@@ -8,4 +6,8 @@ These are assignments for web app class.
 * [Features](#features)
 * [Status](#status)
 * [Inspiration](#inspiration)
-* 
+
+## General info
+🖥️
+
+These are JavaScript exercises for web app class.
