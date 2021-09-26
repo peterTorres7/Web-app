@@ -1,2 +1,2 @@
-# Web-app
+# JavaScript exercises
 These are assignments for web app.
