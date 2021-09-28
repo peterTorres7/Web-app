@@ -31,8 +31,15 @@ cd Web-app
 3. Add Environment Variable path of this directory
 
 4. Run the app using terminal
+
 ## Built with
 👷
 - HTML
+
 ## Features
 🚀
+JavaScript exercises
+
+## Status
+🦁
+Project is: _finished_
