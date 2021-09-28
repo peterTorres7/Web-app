@@ -45,3 +45,8 @@ JavaScript exercises
 🦁
 
 Project is: _finished_
+
+## Inspiration
+🎇
+
+Practice JavaScript.
