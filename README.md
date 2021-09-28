@@ -38,8 +38,10 @@ cd Web-app
 
 ## Features
 🚀
+
 JavaScript exercises
 
 ## Status
 🦁
+
 Project is: _finished_
