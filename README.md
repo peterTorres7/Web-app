@@ -50,3 +50,7 @@ Project is: _finished_
 🎇
 
 Practice JavaScript.
+## Author
+🧑🏻
+
+Peter Torres
