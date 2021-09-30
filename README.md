@@ -8,10 +8,11 @@
 * [Inspiration](#inspiration)
 
 ## General info
-🖥️
+🌌
 
 These are JavaScript exercises for web app class.
 ## Screenshots
+🖥️
 
 ## Setup
 🛠
